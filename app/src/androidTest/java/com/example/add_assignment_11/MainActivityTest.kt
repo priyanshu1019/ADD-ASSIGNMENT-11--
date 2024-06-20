@@ -26,7 +26,6 @@ import org.junit.runner.RunWith
 @LargeTest
 @RunWith(AndroidJUnit4::class)
 class MainActivityTest {
-
     @Rule
     @JvmField
     var mActivityScenarioRule = ActivityScenarioRule(MainActivity::class.java)
