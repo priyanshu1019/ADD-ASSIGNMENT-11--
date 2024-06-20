@@ -15,7 +15,6 @@ class MainActivityTests {
     @Rule
     @JvmField
     var mActivityScenarioRule = ActivityScenarioRule(MainActivity::class.java)
-
     @Test
     fun loginTest(){
         onView(withId(R.id.etUi))
